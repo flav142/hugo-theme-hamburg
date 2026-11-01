@@ -11,10 +11,11 @@
     </div>
   </header>
 
-  {{ if (isset .Params "summary") }}
+  {{ if .Summary }}
     <div class="li-content">
       <div class="summary-container">
-        <p>{{ .Params.Summary | .Page.RenderString }}</p>
+        <p>{{ .Summary | plainify | strings.Truncate 255 }}</p>
+        <!-- <p>{{ .Params.Summary | .Page.RenderString }}</p> -->
         <a class="btn btn-primary" href="{{ .Permalink }}">
           {{ i18n "readMore" }} <span aria-hidden="true">&rarr;</span>
         </a>

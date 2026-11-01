@@ -1,9 +1,9 @@
 /*
 From material design color palette:
 
-#dcedc8 - Light Green 100
-#9ccc65 - Light Green 400
-#558b2f - Light Green 800
+#f6f8fa - Light Green 100
+#4a4a4a - Light Green 400
+#111111 - Light Green 800
 
 #bdbdbd - Gray 400
 #757575 - Gray 600
@@ -18,11 +18,11 @@ body {
 
 /* pure colors for hamburg-theme foreign HTML documents */
 .primary-color-very-light {
-	color: #dcedc8;
+	color: #f6f8fa;
 }
 
 .primary-color {
-	color: #558b2f;
+	color: #111111;
 }
 
 .gray-light {
@@ -57,8 +57,8 @@ body {
 }
 
 .global-footer .sns-links a:hover {
-	border: 1px solid #558b2f;
-	color: #558b2f;
+	border: 1px solid #111111;
+	color: #111111;
 }
 
 /* The whole footer-area */
@@ -72,7 +72,7 @@ body {
 
 a:hover,
 a:focus {
-	color: #558b2f;
+	color: #111111;
 }
 
 /* Tags of articles and pages */
@@ -82,7 +82,7 @@ a:focus {
 }
 
 .post-tag a:hover {
-	background-color: #dcedc8;
+	background-color: #f6f8fa;
 }
 
 .not-found h1 {
@@ -99,21 +99,21 @@ a:focus {
 
 /* Color for e.g. headers and links */
 .text-primary, a {
-	color: #558b2f;
+	color: #111111;
 }
 
 /* Primary buttons are the ones in the page (not in the header) */
 .btn-primary {
 	background-color: transparent;
-	border-color: #558b2f;
-	color: #558b2f;
+	border-color: #111111;
+	color: #111111;
 }
 
 .btn-primary:focus,
 .btn-primary:hover {
-	color: #558b2f;
-	background-color: #dcedc8;
-	border-color: #558b2f;
+	color: #111111;
+	background-color: #f6f8fa;
+	border-color: #111111;
 }
 
 .btn-primary.disabled,
@@ -140,12 +140,12 @@ a.btn-primary.disabled:focus {
 }
 
 .embedded-image {
-	border: 1px solid #dcedc8;
+	border: 1px solid #f6f8fa;
 }
 
 .embedded-image:hover,
 .embedded-image:focus {
-	border: 1px solid #9ccc65;
+	border: 1px solid #4a4a4a;
 }
 
 /* Bootstrap adjustions */
@@ -155,8 +155,8 @@ blockquote {
 
 /* Note box */
 .note {
-	border: 1px solid #dcedc8;
-	border-left: 3px solid #9ccc65;
+	border: 1px solid #f6f8fa;
+	border-left: 3px solid #4a4a4a;
 }
 
 /* Table */
